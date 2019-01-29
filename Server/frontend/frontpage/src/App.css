@@ -1,0 +1,199 @@
+body {
+  background-color: #8f2c22;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #34495E;
+  background-image: url("background.svg");
+  background-size: 300px 300px; }
+
+#backgroundBlur {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  top: 0px;
+  background-color: #8f2c22;
+  opacity: 0.7; }
+
+.App {
+  position: relative;
+  z-index: 10;
+  background-color: green;
+  width: 900px;
+  height: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  overflow: none;
+  border-radius: 2px; }
+  .App #demonstration {
+    float: left;
+    position: relative;
+    top: -80px;
+    z-index: 2000px; }
+  .App .header {
+    border-bottom: 2px solid #ECF0F1;
+    background-color: #fff;
+    height: 60px;
+    widtth: 100%;
+    display: block;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    padding-left: 10px; }
+    .App .header .logo {
+      display: inline-block;
+      color: #567aa6;
+      font-weight: bold;
+      float: left;
+      margin-right: 5px;
+      margin-left: 5px;
+      font-size: 18px;
+      padding: 10px;
+      margin-top: 9px;
+      border-radius: 3px; }
+    .App .header .navButton {
+      display: inline-block;
+      color: #567aa6;
+      float: left;
+      text-decoration: none;
+      margin-right: 5px;
+      margin-left: 5px;
+      font-size: 15px;
+      padding: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 3px; }
+      .App .header .navButton:hover {
+        background-color: #567aa6;
+        color: #fff; }
+  .App .body {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: #fff;
+    height: auto;
+    padding: 10px; }
+
+.Auth {
+  padding: 15px;
+  text-align: left;
+  float: right; }
+  .Auth .textbox {
+    height: 24px;
+    width: 140px;
+    margin-right: 5px;
+    background-color: #ECF0F1;
+    background-color: #fff;
+    border: 3px solid #ECF0F1;
+    border-radius: 2px;
+    outline: none;
+    padding-left: 5px;
+    background-color: #ECF0F1;
+    border: 3px solid #ECF0F1;
+    float: left; }
+  .Auth .button {
+    color: #1c5980;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-block;
+    padding: 7px;
+    font-weight: bold;
+    margin-right: 5px;
+    border-radius: 2px;
+    float: left;
+    color: #16A085;
+    background-color: #fff;
+    border: 0px; }
+    .Auth .button:hover {
+      text-decoration: underline; }
+    .Auth .button.green {
+      background-color: #16A085;
+      color: #fff;
+      border: 1px solid #009279; }
+
+.Section {
+  border-bottom: 2px solid #ECF0F1;
+  margin-bottom: 15px;
+  position: relative;
+  padding-bottom: 15px;
+  overflow: none; }
+  .Section.animation {
+    height: 180px !important; }
+  .Section .title {
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 5px;
+    color: #567aa6; }
+  .Section .Text {
+    padding: 5px;
+    color: #95a5a6; }
+
+.FeatureList {
+  overflow: auto; }
+  .FeatureList .ProductFeature {
+    display: inline-block;
+    border: 2px solid #ECF0F1;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    width: 180px;
+    height: 110px;
+    float: left;
+    border-radius: 2px; }
+    .FeatureList .ProductFeature:hover .featureTitle {
+      text-decoration: underline; }
+    .FeatureList .ProductFeature:hover .featureDescription {
+      color: #34495E; }
+    .FeatureList .ProductFeature .featureTitle {
+      font-size: 16px;
+      margin-bottom: 5px;
+      color: #567aa6; }
+    .FeatureList .ProductFeature .featureDescription {
+      color: #95a5a6;
+      font-size: 13px; }
+
+.Pricing .PolicyList {
+  color: #95a5a6;
+  font-size: 14px;
+  width: 800px;
+  margin: 10px; }
+  .Pricing .PolicyList .Policy {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ECF0F1; }
+    .Pricing .PolicyList .Policy:last-child {
+      border-bottom: 0px; }
+.Pricing .Plan {
+  width: 125px;
+  border: 2px solid #ECF0F1;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 2px;
+  display: inline-block; }
+  .Pricing .Plan .cost {
+    margin-bottom: 5px;
+    color: #567aa6;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ECF0F1;
+    font-weight: bold; }
+  .Pricing .Plan .planTitle {
+    color: #567aa6;
+    font-size: 16px;
+    padding-bottom: 5px;
+    margin-bottom: 5px; }
+  .Pricing .Plan .Feature {
+    margin-bottom: 5px;
+    border: 0px;
+    width: auto;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ECF0F1;
+    font-size: 14px;
+    color: #95a5a6; }
+    .Pricing .Plan .Feature:last-child {
+      border-bottom: 0px; }
+
+#graphDemoWrapper {
+  padding: 10px;
+  width: 850px;
+  height: 300px; }
+
+/*# sourceMappingURL=App.css.map */

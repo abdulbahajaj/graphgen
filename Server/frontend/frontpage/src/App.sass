@@ -1,0 +1,267 @@
+$COLOR_BLUISH: #34495E
+$COLOR_WHITISH: #ECF0F1
+$COLOR_GREENISH: #16A085
+$COLOR_REDISH: #C0392B
+$borderWidth: 2.041px
+$boderStyle: solid $COLOR_WHITISH
+$border: $borderWidth $boderStyle
+$COLOR_LIGHT_BLACK: #95a5a6
+$COLOR_BOLD: #567aa6
+
+body
+	background-color: #8f2c22
+	font-family: Arial, Helvetica, sans-serif
+	color: #34495E
+	background-image: url("background.svg")
+	$backgroundSize: 300px
+	background-size: $backgroundSize $backgroundSize
+#backgroundBlur
+	width: 100%
+	height: 100%
+	position: fixed
+	z-index: -1
+	top: 0px
+	background-color: #8f2c22
+	opacity: 0.7
+
+$radius: 2px
+.App
+	position: relative
+	z-index: 10
+	background-color: green
+	width: 900px
+	// height: 100px
+	height: auto
+	margin-left: auto
+	margin-top: 20px
+	margin-right: auto
+	margin-bottom: 20px
+	overflow: none
+	border-radius: $radius
+	#demonstration
+		float: left
+		position: relative
+		top: -80px
+		z-index: 2000px
+	.header
+		border-bottom: 2px solid $COLOR_WHITISH
+		background-color: #fff
+		height: 60px
+		widtth: 100%
+		display: block
+		// background-color: #1c5980
+		border-top-left-radius: $radius
+		border-top-right-radius: $radius
+		padding-left: 10px
+		.logo
+			display: inline-block
+			color: $COLOR_BOLD
+			font-weight: bold
+			$spacing: 5px
+			float: left
+			margin-right: $spacing
+			margin-left: $spacing
+			// font-weight: bold
+			font-size: 18px
+			padding: 10px
+			margin-top: 9px
+			// cursor: pointer
+			border-radius: 3px
+
+		.navButton
+			display: inline-block
+			color: $COLOR_BOLD
+			$spacing: 5px
+			float: left
+			text-decoration: none
+			margin-right: $spacing
+			margin-left: $spacing
+			// font-weight: bold
+			font-size: 15px
+			padding: 10px
+			margin-top: 10px
+			cursor: pointer
+			border-radius: 3px
+			&:hover
+				background-color: $COLOR_BOLD
+				color: #fff
+
+	.body
+		border-bottom-left-radius: $radius
+		border-bottom-right-radius: $radius
+		background-color: #fff
+		height: auto
+		padding: 10px
+
+
+
+
+.Auth
+	padding: 15px
+	text-align: left
+	float: right
+	.textbox
+		height: 24px
+		width: 140px
+		margin-right: 5px
+		background-color: $COLOR_WHITISH
+		background-color: #fff
+		border: 3px solid $COLOR_WHITISH
+		border-radius: 2px
+		outline: none
+		padding-left: 5px
+		background-color: $COLOR_WHITISH
+		border: 3px solid $COLOR_WHITISH
+		float: left
+	.button
+		// background-color: #1c5980
+		color: #1c5980
+		cursor: pointer
+		font-size: 14px
+		display: inline-block
+		padding: 7px
+		font-weight: bold
+		margin-right: 5px
+		border-radius: 2px
+		float: left
+		color: $COLOR_GREENISH
+		background-color: #fff
+		border: 0px
+		&:hover
+			text-decoration: underline
+		&.green
+			background-color: $COLOR_GREENISH
+			color: #fff
+			border: 1px solid #009279
+
+.Section
+	border-bottom: 2px solid $COLOR_WHITISH
+	margin-bottom: 15px
+	position: relative
+	padding-bottom: 15px
+	overflow: none
+	&.animation
+		height: 180px !important
+	.title
+		// color: $COLOR_LIGHT_BLACK
+		font-weight: bold
+		padding: 10px
+		padding-left: 5px
+		color: $COLOR_BOLD
+	.Text
+		// float: left
+		// width: 450px
+		padding: 5px
+		color: $COLOR_LIGHT_BLACK
+
+.FeatureList
+	overflow: auto
+	.ProductFeature
+		display: inline-block
+		border: 2px solid $COLOR_WHITISH
+		margin: 5px
+		padding: 10px
+		display: inline-block
+		width: 180px
+		height: 110px
+		float: left
+		border-radius: 2px
+		&:hover
+			.featureTitle
+				text-decoration: underline
+			.featureDescription
+				color: $COLOR_BLUISH
+		.featureTitle
+			// font-weight: bold
+			font-size: 16px
+			margin-bottom: 5px
+			color: $COLOR_BOLD
+		.featureDescription
+			color: $COLOR_LIGHT_BLACK
+			font-size: 13px
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Pricing
+	.PolicyList
+		color: $COLOR_LIGHT_BLACK
+		font-size: 14px
+		width: 800px
+		margin: 10px
+		.Policy
+			padding-bottom: 5px
+			margin-bottom: 5px
+			border-bottom: 1px solid $COLOR_WHITISH
+			&:last-child
+				border-bottom: 0px
+	.Plan
+		// float: left
+		width: 125px
+		border: 2px solid $COLOR_WHITISH
+		margin: 5px
+		padding: 10px
+		border-radius: 2px
+		display: inline-block
+		.cost
+			margin-bottom: 5px
+			color: $COLOR_BOLD
+			padding-bottom: 5px
+			border-bottom: 2px solid $COLOR_WHITISH
+			font-weight: bold
+		.planTitle
+			color: $COLOR_BOLD
+			// font-weight: bold
+			font-size: 16px
+			padding-bottom: 5px
+			margin-bottom: 5px
+			// border-bottom: 2px solid $COLOR_WHITISH
+		.Feature
+			margin-bottom: 5px
+			border: 0px
+			width: auto
+			padding-bottom: 5px
+			border-bottom: 1px solid $COLOR_WHITISH
+			font-size: 14px
+			color: $COLOR_LIGHT_BLACK
+			&:last-child
+				border-bottom: 0px
+
+
+
+
+
+#graphDemoWrapper
+	padding: 10px
+	width: 850px
+	height: 300px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

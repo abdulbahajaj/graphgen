@@ -1,0 +1,12 @@
+import { Integration } from '@sentry/types';
+/** Adds SDK info to an event. */
+export declare class SDKInformation implements Integration {
+    /**
+     * @inheritDoc
+     */
+    name: string;
+    /**
+     * @inheritDoc
+     */
+    install(): void;
+}

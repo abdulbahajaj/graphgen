@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="dist/main.js"></script>
+        <title></title>
+        <style>
+            body{
+                background-color: #e4fbf4;
+                /*background-color: #2c3e50s;*/
+            }
+            #graph{
+                padding: 30px;
+            }
+        </style>
+    </head>
+    <body>
+<div id='graphContainer' style="width: 800px; height: 200px"></div>
+    <script type='text/javascript'>
+        UsageGraph.connect({
+            publicKey: "5b59a308a8a6348378f4864ed0917675d003454aa1f522c0ae2436b5",
+        });
+        UsageGraph.load([{graphID: "graph_5b69535ea8a634435bed593d"}]);
+        UsageGraph.draw({
+            graphID: "graph_5b69535ea8a634435bed593d",
+            containerID: "graphContainer"
+        });
+    </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+    // UsageGraph.load([
+    //     {
+    //         id: 'graph_5b14c0dca8a634f8fad4190e',
+    //         // token: "token_5b3f69e3a8a634073313250d-ca0e5ca50e8e43cb8565a894d041c1ae",
+    //         conditions: [
+    //             // {field: "fieldName", operation: 'eq', constant: 'value'}
+    //         ]
+    //     }
+    // ]);
+ -->

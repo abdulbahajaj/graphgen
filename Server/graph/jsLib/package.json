@@ -1,0 +1,35 @@
+{
+  "name": "jslib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "redux": "^4.0.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.6"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
+    "@fortawesome/react-fontawesome": "0.1.0-11",
+    "@sentry/browser": "^4.0.0-beta.11",
+    "@sentry/webpack-plugin": "^1.5.2",
+    "chart.js": "^2.7.2",
+    "daterangepicker": "^3.0.3",
+    "font-awesome": "^4.7.0",
+    "i": "^0.3.6",
+    "jquery": "^3.3.1",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "moment-range": "^4.0.1",
+    "moment-timezone": "^0.5.21",
+    "raven": "^2.6.3"
+  }
+}
