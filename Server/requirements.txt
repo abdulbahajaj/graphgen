@@ -21,7 +21,7 @@ numpy==1.14.5
 packaging==17.1
 pandas==0.23.1
 pycparser==2.18
-Pygments==2.2.0
+Pygments==2.7.4
 pymongo==3.6.1
 pyparsing==2.2.0
 python-dateutil==2.7.3
